@@ -13,15 +13,19 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": [
+    "bin/",
+    "src/"
+  ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Luiz-NP/nodeless.git"
+    "url": "git+https://github.com/Luiz-NP/bit-converter.git"
   },
   "keywords": [
     "cli",
     "bitc"
   ],
-  "author": "",
+  "author": "Luiz-NP",
   "license": "ISC",
   "dependencies": {
     "esm": "^3.2.25"
