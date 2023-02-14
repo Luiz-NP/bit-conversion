@@ -1,0 +1,29 @@
+{
+  "name": "@luiz-np/bit-convertion",
+  "version": "1.0.0",
+  "description": "a CLI to convert decimals to binary",
+  "main": "src/index.js",
+  "bin": {
+    "@luiz-np/bitc": "bin/bitc",
+    "bitc": "bin/bitc"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luiz-NP/nodeless.git"
+  },
+  "keywords": [
+    "cli",
+    "bitc"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.2.25"
+  }
+}
