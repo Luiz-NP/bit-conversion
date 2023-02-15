@@ -1,13 +1,9 @@
-const [number] = process.argv.slice(2);
+const [argv] = process.argv.slice(2);
 
-if (isNaN(+number)) console.log("please type a number.");
-else console.log(bitTransformer(number, []));
+if (isNaN(+argv)) return process.stdout.write("please type a number to convert.\n\n bitc -h for more help.\n");
 
-function bitTransformer(n, bits) {
-  bits.push(n%2);
-  n = parseInt(n/2);
+if (argv === "-h" || argv === undefined) 
+  return process.stdout.write("Usage: bitc [arguments]\n\nArguments:\n\n  -h      help.\n  number  convert your number to binary.\n");
 
-  if (n >= 2) return bitTransformer(n, bits);
 
-  return [...bits, n].reverse().join('');
-}
+return process.stdout.write((+argv).toString(2)+"\n");
