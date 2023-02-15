@@ -1,10 +1,9 @@
 {
-  "name": "@luiz-np/bit-convertion",
+  "name": "bit-conversion",
   "version": "1.0.0",
   "description": "a CLI to convert decimals to binary",
   "main": "src/index.js",
   "bin": {
-    "@luiz-np/bitc": "bin/bitc",
     "bitc": "bin/bitc"
   },
   "publishConfig": {
@@ -19,7 +18,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Luiz-NP/bit-converter.git"
+    "url": "git+https://github.com/Luiz-NP/bit-conversion.git"
   },
   "keywords": [
     "cli",
