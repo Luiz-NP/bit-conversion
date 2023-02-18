@@ -5,9 +5,9 @@
 
 ### installation
 ```
-  $ npm install --global @luiz-np/bit-convertion
+  $ npm install --global bit-conversion
 ```
 ### or
 ```
-  $ yarn global add @luiz-np/bit-convertion
+  $ yarn global add bit-conversion
 ```
