@@ -1,6 +1,6 @@
 {
   "name": "bit-conversion",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "a CLI to convert decimals to binary",
   "main": "src/index.js",
   "bin": {
